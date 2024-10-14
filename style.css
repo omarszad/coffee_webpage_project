@@ -1,0 +1,153 @@
+body{
+    background-color:beige;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color:rgb(204, 110, 66);
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    ho
+
+}
+
+.navspace {
+    padding-right: 15px;
+    color:ivory;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+
+
+}
+
+a:hover{
+    color: black;
+}
+
+
+
+#intro {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: peru;
+    font-size: 40px;   
+}
+
+p{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkolivegreen;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: peru;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max: width 500px; /* Adjust homepage picture*/
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position:absolute;
+    bottom: 30%;
+    left: 50%
+    transform: translate(-50% -50%);
+    color: rgb(241, 126, 11); /*text color*/
+    background-color: rgba(0, 0, 0, 0.5); /*backgroung with transparency */
+    padding: 10px;
+    font-size: 15px; /* Adust */
+    text-align: center;
+
+}
+
+.social-media {
+    background-color:rgb(233, 228, 224);    
+}
+
+.social-media {
+    list-style:none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.social-media li a {
+    color: rgb(67, 20, 195);
+    text-decoration:none;
+}
+
+.social-media li a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    border: 5px solid hwb(25 4% 13%);
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 400px;
+    height: 400px; /* Fixed height to ensure uniform size */
+    border-radius: 10px;
+    margin-right: 5px;
+    object-fit: cover; /* Ensures the image covers the dimensions without distortion */
+}
+
+
+.price {
+    display:contents; /* Hidden by default */
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px
+}
+
+.menu-text {
+    text-align: left;
+    
+}
+
+.menu-text h2 {
+    margin: 50px;
+    font-size: 2.5em;
+    color: #f1770c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-text p {
+    margin: 50px;
+    font-size: 1.5em;
+    color:  #f1770c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
